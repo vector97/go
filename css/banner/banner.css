@@ -1,0 +1,33 @@
+.banner {
+  height: 910px;
+  background:
+    url("img/main-bg-text.svg") no-repeat bottom -70px right,
+    url("img/main-bg-text.svg") no-repeat bottom 80px right,
+    url("img/main-bg-text.svg") no-repeat bottom 230px right,
+    url("img/main-bg-text.svg") no-repeat bottom 380px right,
+    url("img/main-bg-text.svg") no-repeat bottom 530px right;
+}
+
+.banner::before {
+  content: '';
+  background: url("img/main-bg.png") no-repeat bottom 80px right;
+  display: inline-block;
+  height: 940px;
+  width: 1180px;
+  position: absolute;
+}
+
+.banner__title {
+  font-size: 200px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -20px;
+  z-index: 1;
+}
+
+.banner__subtitle {
+  font-size: 28px;
+  line-height: 50px;
+  margin: 0;
+  padding-left: 211px;
+}

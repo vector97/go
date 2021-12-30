@@ -1,0 +1,38 @@
+/* reviews */
+
+.reviews {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/* item */
+
+.reviews__item {
+  display: flow-root;
+  margin-bottom: 50px;
+}
+
+/* user */
+
+.reviews__user {
+  float: left;
+  margin-right: 20px;
+}
+
+.user__avatar {
+  margin-bottom: 11px;
+  display: block;
+}
+
+/* name */
+
+.user__name {
+  text-align: center;
+}
+
+/* text */
+
+.reviews__text {
+  margin-top: 60px;
+}
+
