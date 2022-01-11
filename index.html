@@ -11,11 +11,31 @@
 
   <link rel="icon" href="favicon.svg">
 
-  <title>Модуль 02 Урок 13 - Позиционирование</title>
+  <title>Модуль 03 Урок 01 - Flexbox модель</title>
 </head>
 <body class="page">
 
-<main>
+<header class="page__header">
+  <div class="container">
+    <section class="header">
+      <img class="header__logo" src="img/header/logo.svg" height="66" alt="Логотип: GameOver">
+
+      <nav class="header__nav nav">
+        <ul class="nav__list menu">
+          <li class="menu__item"><a class="menu__link" href="#">Залы</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Бронь</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Отзывы</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__call call">Заказать звонок</button>
+    </section>
+  </div>
+</header>
+
+<main class="page__main main">
   <div class="container">
     <h1 class="page__title visually-hidden">Игровая территория <span>GAME OVER</span></h1>
     <section class="banner">
@@ -102,7 +122,7 @@
   </div>
 </main>
 
-<footer class="footer">
+<footer class="page__footer footer">
   <div class="container">
     <section class="contacts">
       <h2 class="heading contacts__heading">Контакты</h2>

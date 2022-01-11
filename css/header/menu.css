@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.menu__link {
+  font-size: 22px;
+  text-transform: uppercase;
+}

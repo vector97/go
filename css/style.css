@@ -1,5 +1,10 @@
+/* setting */
+
 @import "normalize.css";
 @import "global.css";
+
+/* page */
+@import "header/header.css";
 @import "banner/banner.css";
 @import "halls/halls.css";
 @import "about/about.css";

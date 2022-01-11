@@ -1,0 +1,23 @@
+@import "menu.css";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.call {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 3px solid #cd06ff;
+  border-radius: 10px;
+  outline: none;
+  padding: 12px 32px;
+}
