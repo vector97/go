@@ -38,22 +38,25 @@ fieldset {
   color: #000000;
   text-align: center;
 
+  border: 3px solid #ffffff;
   border-radius: 8px;
   background-color: #ffffff;
   flex-basis: 250px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   cursor: pointer;
+  transition: background-color 0.2s ease-in, border-color 0.2s ease-in;
 }
 
-.hall__label:hover {
-  color: #ffffff;
-  background-color: #000000;
+.hall__label:hover,
+.hall__label:focus {
+  background-color: #eadeed;
+  border: 3px solid #640aa3;
 }
 
 .hall__item:checked + .hall__label {
-  color: #ffffff;
-  background-color: #000000;
+  background-color: #eadeed;
+  border: 3px solid #eadeed;
 }
 
 /* set */
@@ -78,11 +81,21 @@ fieldset {
 .set__radio {
   width: 27px;
   height: 27px;
+  transition: outline-color 0.2s ease-in;
+}
+
+.set__radio:focus {
+  outline: 1px solid #cd06ff;
 }
 
 .set__check {
   width: 27px;
   height: 27px;
+  transition: outline-color 0.2s ease-in;
+}
+
+.set__check:focus {
+  outline: 1px solid #cd06ff;
 }
 
 .set__legend {
@@ -125,6 +138,11 @@ fieldset {
   padding: 10px;
   display: block;
   margin-top: 6px;
+  transition: outline-color 0.2s ease-in;
+}
+
+.info__input:focus {
+  outline: 2px solid  #cd06ff;
 }
 
 .info__button {

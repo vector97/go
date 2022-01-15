@@ -12,7 +12,7 @@
 .menu__link {
   font-size: 22px;
   text-transform: uppercase;
-  transition: all 0.3s ease-in;
+  transition: color 0.2s ease-in;
 }
 
 .menu__link:hover {
