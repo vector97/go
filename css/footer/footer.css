@@ -43,7 +43,7 @@
 }
 
 .contacts__tel::before {
-  background-image: url('/img/footer/icons/telephone.svg');
+  background-image: url('../../img/footer/icons/telephone.svg');
 }
 
 .contacts__mail {
@@ -51,7 +51,7 @@
 }
 
 .contacts__mail::before {
-  background-image: url('/img/footer/icons/envelope.svg');
+  background-image: url('../../img/footer/icons/envelope.svg');
 }
 
 .contacts__social {

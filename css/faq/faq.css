@@ -19,7 +19,7 @@
 .faq__item::after {
   content: "";
   display: inline-block;
-  background-image: url(/img/page/faq/icons/open-purple.svg);
+  background-image: url("../../img/page/faq/icons/open-purple.svg");
   width: 46px;
   height: 46px;
   background-size: cover;
@@ -32,5 +32,5 @@
 }
 
 .faq__item:nth-child(2n)::after {
-  background-image: url(/img/page/faq/icons/open.svg);
+  background-image: url("../../img/page/faq/icons/open.svg");
 }

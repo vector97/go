@@ -18,17 +18,17 @@
 }
 
 .vibes {
-  background: url("/img/page/halls/hall-01.jpg") no-repeat center center / cover;
+  background: url("../../img/page/halls/hall-01.jpg") no-repeat center center / cover;
 }
 
 .star-wars {
-  background: url("/img/page/halls/hall-02.jpg") no-repeat center center / cover;
+  background: url("../../img/page/halls/hall-02.jpg") no-repeat center center / cover;
 }
 
 .wild-west {
-  background: url("/img/page/halls/hall-03.jpg") no-repeat center center / cover;
+  background: url("../../img/page/halls/hall-03.jpg") no-repeat center center / cover;
 }
 
 .neon-style {
-  background: url("/img/page/halls/hall-04.jpg") no-repeat center center / cover;
+  background: url("../../img/page/halls/hall-04.jpg") no-repeat center center / cover;
 }

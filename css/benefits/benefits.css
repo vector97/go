@@ -13,27 +13,27 @@
 }
 
 .card_vr {
-  background-image: url('/img/page/benefits/vr.jpg');
+  background-image: url('../../img/page/benefits/vr.jpg');
 }
 
 .card_audio {
-  background-image: url('/img/page/benefits/audio.jpg');
+  background-image: url('../../img/page/benefits/audio.jpg');
 }
 
 .card_micro {
-  background-image: url('/img/page/benefits/micro.jpg');
+  background-image: url('../../img/page/benefits/micro.jpg');
 }
 
 .card_game {
-  background-image: url('/img/page/benefits/game.jpg');
+  background-image: url('../../img/page/benefits/game.jpg');
 }
 
 .card_netflix {
-  background-image: url('/img/page/benefits/netflix.jpg');
+  background-image: url('../../img/page/benefits/netflix.jpg');
 }
 
 .card_sony {
-  background-image: url('/img/page/benefits/sony.jpg');
+  background-image: url('../../img/page/benefits/sony.jpg');
 }
 
 .card__text {

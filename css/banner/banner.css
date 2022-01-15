@@ -1,18 +1,18 @@
 .banner__container {
   height: 860px;
   background:
-    url("/img/page/banner/main-bg-text.svg") no-repeat top 185px center,
-    url("/img/page/banner/main-bg-text.svg") no-repeat top 335px center,
-    url("/img/page/banner/main-bg-text.svg") no-repeat top 485px center,
-    url("/img/page/banner/main-bg-text.svg") no-repeat top 635px center,
-    url("/img/page/banner/main-bg-text.svg") no-repeat top 785px center;
+    url("../../img/page/banner/main-bg-text.svg") no-repeat top 185px center,
+    url("../../img/page/banner/main-bg-text.svg") no-repeat top 335px center,
+    url("../../img/page/banner/main-bg-text.svg") no-repeat top 485px center,
+    url("../../img/page/banner/main-bg-text.svg") no-repeat top 635px center,
+    url("../../img/page/banner/main-bg-text.svg") no-repeat top 785px center;
 
   position: relative;
 }
 
 .banner__container::before {
   content: '';
-  background: url("/img/page/banner/main-bg.png") no-repeat bottom 80px right;
+  background: url("../../img/page/banner/main-bg.png") no-repeat bottom 80px right;
   display: inline-block;
   height: 940px;
   width: 1180px;
