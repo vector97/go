@@ -1,16 +1,18 @@
-.banner {
-  height: 910px;
+.banner__container {
+  height: 860px;
   background:
-    url("img/main-bg-text.svg") no-repeat bottom -70px right,
-    url("img/main-bg-text.svg") no-repeat bottom 80px right,
-    url("img/main-bg-text.svg") no-repeat bottom 230px right,
-    url("img/main-bg-text.svg") no-repeat bottom 380px right,
-    url("img/main-bg-text.svg") no-repeat bottom 530px right;
+    url("/img/page/banner/main-bg-text.svg") no-repeat top 185px center,
+    url("/img/page/banner/main-bg-text.svg") no-repeat top 335px center,
+    url("/img/page/banner/main-bg-text.svg") no-repeat top 485px center,
+    url("/img/page/banner/main-bg-text.svg") no-repeat top 635px center,
+    url("/img/page/banner/main-bg-text.svg") no-repeat top 785px center;
+
+  position: relative;
 }
 
-.banner::before {
+.banner__container::before {
   content: '';
-  background: url("img/main-bg.png") no-repeat bottom 80px right;
+  background: url("/img/page/banner/main-bg.png") no-repeat bottom 80px right;
   display: inline-block;
   height: 940px;
   width: 1180px;
@@ -22,12 +24,72 @@
   font-weight: 900;
   line-height: 1;
   letter-spacing: -20px;
-  z-index: 1;
 }
 
 .banner__subtitle {
   font-size: 28px;
   line-height: 50px;
   margin: 0;
+  margin-bottom: 50px;
   padding-left: 211px;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+}
+
+.promo__description {
+  display: flex;
+  margin-bottom: 170px;
+}
+
+.promo__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 4px;
+  height: 180px;
+  text-align: center;
+}
+
+.promo__value {
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 1;
+  color: #cd06ff;
+}
+
+.promo__new {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  color: #cd06ff;
+  text-transform: uppercase;
+}
+
+.promo__name {
+  font-size: 28px;
+}
+
+.promo__button {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 25px 70px;
+  background-color: #6C0287;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.promo__arrow {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 30px;
+  position: absolute;
+  right: 50%;
+  bottom: 90px;
+  z-index: 1;
 }

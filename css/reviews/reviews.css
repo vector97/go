@@ -1,38 +1,37 @@
 /* reviews */
 
-.reviews {
+.reviews__container {
   padding-right: 100px;
   padding-left: 100px;
+}
+
+.reviews__body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
 }
 
 /* item */
 
 .reviews__item {
-  display: flow-root;
-  margin-bottom: 50px;
+  display: flex;
+  column-gap: 20px;
 }
 
 /* user */
 
-.reviews__user {
-  float: left;
-  margin-right: 20px;
+.user {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+  flex-shrink: 0;
+  row-gap: 11px;
 }
-
-.user__avatar {
-  margin-bottom: 11px;
-  display: block;
-}
-
-/* name */
 
 .user__name {
   text-align: center;
 }
 
-/* text */
-
 .reviews__text {
-  margin-top: 60px;
+  padding-top: 50px;
 }
-

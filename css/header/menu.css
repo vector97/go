@@ -1,10 +1,20 @@
-.menu {
+.menu__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 40px;
+}
+
+.menu__item {
+  text-align: center;
 }
 
 .menu__link {
   font-size: 22px;
   text-transform: uppercase;
+  transition: all 0.3s ease-in;
+}
+
+.menu__link:hover {
+  color: #cd06ff;
 }

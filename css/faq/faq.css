@@ -1,27 +1,27 @@
 .faq__list {
   list-style: none;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
 .faq__item {
-  background-color: #fff;
-  color: #1C1A1A;
-  font-weight: 700;
   font-size: 24px;
-  padding: 30px 70px;
-  margin-bottom: 20px;
-}
+  font-weight: 700;
+  line-height: 46px;
+  color: #1c1a1a;
 
-.faq__item:last-child {
-  margin-bottom: 0;
+  padding: 20px 70px;
+  background-color: #ffffff;
+  cursor: pointer;
 }
 
 .faq__item::after {
   content: "";
   display: inline-block;
-  background-image: url(img/icons/open-purple.svg);
-  width: 26px;
-  height: 26px;
+  background-image: url(/img/page/faq/icons/open-purple.svg);
+  width: 46px;
+  height: 46px;
   background-size: cover;
   float: right;
 }
@@ -32,5 +32,5 @@
 }
 
 .faq__item:nth-child(2n)::after {
-  background-image: url(img/icons/open.svg);
+  background-image: url(/img/page/faq/icons/open.svg);
 }

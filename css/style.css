@@ -4,8 +4,11 @@
 @import "global.css";
 
 /* page */
+
 @import "header/header.css";
 @import "banner/banner.css";
+@import "benefits/benefits.css";
+@import "reserv/reserv.css";
 @import "halls/halls.css";
 @import "about/about.css";
 @import "reviews/reviews.css";
