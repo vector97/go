@@ -15,6 +15,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+}
+
+.halls__item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 4px #eadeed;
 }
 
 .vibes {

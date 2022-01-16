@@ -15,6 +15,11 @@
   transition: color 0.2s ease-in;
 }
 
-.menu__link:hover {
+.menu__link:hover,
+.menu__link:focus {
   color: #cd06ff;
+}
+
+.menu__link:active {
+  color: #640aa3;
 }
