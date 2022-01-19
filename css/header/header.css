@@ -24,10 +24,10 @@
 .call {
   font-size: 22px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--text-white);
   text-transform: uppercase;
   background-color: transparent;
-  border: 3px solid #6c0287;
+  border: 3px solid var(--light-violet);
   border-radius: 10px;
   padding: 12px 32px;
   transition: background-color 0.2s ease-in, border-color 0.2s ease-in;
@@ -35,10 +35,10 @@
 
 .call:hover,
 .call:focus {
-  background-color: #6c0287;
+  background-color: var(--light-violet);
 }
 
 .call:active {
-  border: 3px solid #640aa3;
-  background-color: #640aa3;
+  border: 3px solid var(--button-active);
+  background-color: var(--button-active);
 }

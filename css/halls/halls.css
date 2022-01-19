@@ -20,7 +20,7 @@
 
 .halls__item:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 4px #eadeed;
+  box-shadow: 0 0 4px var(--shadow);
 }
 
 .vibes {

@@ -1,5 +1,5 @@
 .reserv {
-  background-color: #440f51;
+  background-color: var(--dark-violet);
 }
 
 .reserv__hall {
@@ -26,10 +26,6 @@ fieldset {
   margin-bottom: 40px;
 }
 
-.hall__item {
-  display: none;
-}
-
 .hall__label {
   font-size: 30px;
   font-weight: 700;
@@ -38,9 +34,9 @@ fieldset {
   color: #000000;
   text-align: center;
 
-  border: 3px solid #ffffff;
+  border: 3px solid var(--text-white);
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: var(--text-white);
   flex-basis: 250px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -50,13 +46,13 @@ fieldset {
 
 .hall__label:hover,
 .hall__label:focus {
-  background-color: #eadeed;
-  border: 3px solid #640aa3;
+  background-color: var(--shadow);
+  border: 3px solid var(--button-active);
 }
 
 .hall__item:checked + .hall__label {
-  background-color: #eadeed;
-  border: 3px solid #eadeed;
+  background-color: var(--shadow);
+  border: 3px solid var(--shadow);
 }
 
 /* set */
@@ -85,7 +81,7 @@ fieldset {
 }
 
 .set__radio:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--medium-violet);
 }
 
 .set__check {
@@ -95,7 +91,7 @@ fieldset {
 }
 
 .set__check:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--medium-violet);
 }
 
 .set__legend {
@@ -142,7 +138,7 @@ fieldset {
 }
 
 .info__input:focus {
-  outline: 2px solid  #cd06ff;
+  outline: 2px solid  var(--medium-violet);
 }
 
 .info__button {
@@ -157,10 +153,10 @@ fieldset {
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
-  color: #6c0287;
+  color: var(--light-violet);
   flex-basis: 300px;
 
-  background-color: #ffffff;
+  background-color: var(--text-white);
   border: none;
   border-radius: 10px;
   padding: 16px 50px;
@@ -170,11 +166,11 @@ fieldset {
 
 .reserv__button:hover,
 .reserv__button:focus {
-  color: #ffffff;
-  background-color: #840aa3;
+  color: var(--text-white);
+  background-color: var(--button-hover);
 }
 
 .reserv__button:active {
-  color: #ffffff;
-  background-color: #640aa3;
+  color: var(--text-white);
+  background-color: var(--button-active);
 }

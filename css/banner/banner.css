@@ -59,14 +59,14 @@
   font-size: 100px;
   font-weight: 900;
   line-height: 1;
-  color: #cd06ff;
+  color: var(--medium-violet);
 }
 
 .promo__new {
   font-size: 80px;
   font-weight: 700;
   line-height: 1;
-  color: #cd06ff;
+  color: var(--medium-violet);
   text-transform: uppercase;
 }
 
@@ -79,7 +79,7 @@
   font-weight: 700;
   text-transform: uppercase;
   padding: 25px 70px;
-  background-color: #6c0287;
+  background-color: var(--light-violet);
   border-radius: 10px;
   z-index: 1;
   transition: background-color 0.2s ease-in;
@@ -87,15 +87,15 @@
 
 .promo__button:hover,
 .promo__button:focus {
-  background-color: #840aa3;
+  background-color: var(--button-hover);
 }
 
 .promo__button:active {
-  background-color: #640aa3;
+  background-color: var(--button-active);
 }
 
 .promo__arrow {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--text-white);
   border-radius: 50%;
   padding: 30px;
   position: absolute;
@@ -106,14 +106,14 @@
 }
 
 .promo__arrow:hover {
-  background-color: #6c0287;
+  background-color: var(--light-violet);
 }
 
 .promo__arrow:active {
-  background-color: #cd06ff;
+  background-color: var(--medium-violet);
 }
 
 .promo__arrow:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--medium-violet);
   border-radius: 0;
 }

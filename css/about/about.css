@@ -28,14 +28,14 @@
 .about__blockquote::before {
   content: '\201C';
   font-weight: 900;
-  color: #6C0287;
+  color: var(--light-violet);
   margin-left: -35px;
 }
 
 .about__blockquote::after {
   content: '\201D';
   font-weight: 900;
-  color: #6C0287;
+  color: var(--light-violet);
 }
 
 .about__cite {

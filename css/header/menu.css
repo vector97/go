@@ -17,9 +17,9 @@
 
 .menu__link:hover,
 .menu__link:focus {
-  color: #cd06ff;
+  color: var(--medium-violet);
 }
 
 .menu__link:active {
-  color: #640aa3;
+  color: var(--button-active);
 }
