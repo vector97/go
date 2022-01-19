@@ -1,10 +1,18 @@
+.benefits {
+  padding-bottom: 120px;
+}
+
 .benefits__list {
   display: flex;
   flex-wrap: wrap;
   gap: 40px 20px;
 }
 
-/* card */
+.benefits__item:nth-child(3n+2) {
+  transform: translateY(70px);
+}
+
+  /* card */
 
 .card {
   width: 380px;
