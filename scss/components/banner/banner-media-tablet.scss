@@ -1,0 +1,64 @@
+/* media 838px */
+
+@include tablet {
+  .banner {
+    padding-top: 30px;
+    padding-bottom: 80px;
+
+    .container::before {
+      height: 479px;
+      width: 409px;
+      right: 40px;
+    }
+
+    &__title {
+      font-size: 86px;
+      line-height: 86px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+      line-height: 24px;
+      padding-left: 70px;
+      margin-bottom: 50px;
+    }
+
+    /* promo */
+
+    .promo {
+      &__description {
+        max-width: 222px;
+        margin-bottom: 100px;
+      }
+
+      &__value {
+        font-size: 50px;
+        line-height: 71px;
+      }
+
+      &__new {
+        font-size: 40px;
+        line-height: 56px;
+      }
+
+      &__name {
+        font-size: 16px;
+        line-height: 18px;
+      }
+
+      &__button {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 11px 34px;
+        border-radius: 4px;
+        margin-bottom: 104px;
+      }
+    }
+
+    /* /promo */
+
+    &__arrow {
+      display: none;
+    }
+  }
+}

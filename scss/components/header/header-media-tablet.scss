@@ -1,0 +1,100 @@
+/* media 838px */
+
+@include tablet {
+  .header {
+    &__body {
+      padding-top: 32px;
+    }
+
+    &__logo {
+      order: 2;
+    }
+
+    .menu {
+      &__icon {
+        display: block;
+        order: 1;
+        position: relative;
+        width: 58px;
+        height: 58px;
+        padding: 14px 2px;
+        cursor: pointer;
+      }
+
+      &__icon::before,
+      &__icon span,
+      &__icon::after {
+        position: absolute;
+        height: 5px;
+        background-color: var(--light-violet);
+        border-radius: 2px;
+        transition: all 0.2s ease-in;
+      }
+
+      &__icon::before {
+        content: '';
+        width: 54px;
+        top: 14px;
+      }
+
+      &__icon span {
+        width: 54px;
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+      }
+
+      &__icon::after {
+        content: '';
+        bottom: 14px;
+        width: 57%;
+      }
+
+      &__icon:hover::before,
+      &__icon:hover span,
+      &__icon:hover::after {
+        background-color: var(--medium-violet);
+      }
+
+      &__icon:active::before,
+      &__icon:active span,
+      &__icon:active::after {
+        background-color: var(--button-hover);
+      }
+
+      &__icon:focus {
+        outline: 1px solid var(--medium-violet)
+      }
+
+      &__icon:focus::before,
+      &__icon:focus span,
+      &__icon:focus::after {
+        background-color: var(--button-hover);
+      }
+
+      &__list {
+        display: none;
+      }
+
+      &__icon_active {
+        &::before {
+          top: 48%;
+          transform: rotate(-45deg) translate(0px, -50%);
+        }
+
+        span {
+          transform: scale(0);
+        }
+
+        &::after {
+          width: 54px;
+          bottom: 50%;
+          transform: rotate(45deg) translate(0px, 50%);
+        }
+      }
+    }
+
+    &__button {
+      order: 3;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+/* media 1024px */
+
+@include laptop {
+  .reserv {
+    margin-bottom: 70px;
+
+    .fieldset-title {
+      margin-bottom: 26px;
+    }
+
+    .hall__label {
+      font-size: 20px;
+      line-height: 24px;
+      border-radius: 6px;
+      flex-basis: 180px;
+      padding: 10px 20px;
+    }
+
+    .info {
+      justify-content: space-between;
+
+      &__button {
+        margin-top: 50px;
+        max-width: 904px;
+      }
+    }
+
+    &__button {
+      font-size: 18px;
+      line-height: 24px;
+      padding: 13px 45px;
+      margin-right: 0;
+    }
+  }
+}

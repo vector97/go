@@ -1,0 +1,47 @@
+/* media 1024px */
+
+@include laptop {
+  .footer {
+    padding-bottom: 19px;
+
+    /* contacts */
+
+    .contacts {
+      &__body {
+        margin-bottom: 92px;
+      }
+
+      &__item {
+        gap: 13px;
+
+        &::before {
+          width: 26px;
+          height: 26px;
+        }
+      }
+
+      &__location {
+        margin-bottom: 40px;
+      }
+
+      &__tel {
+        margin-bottom: 7px;
+      }
+
+      &__social-item img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .copy {
+        display: flex;
+        justify-content: space-between;
+
+        span + span {
+          text-align: right;
+        }
+      }
+    }
+    /* /contacts */
+  }
+}

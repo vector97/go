@@ -1,0 +1,30 @@
+/* media 1080px */
+
+@include laptop {
+  .header {
+    .logo {
+      &__img {
+        max-width: 87px;
+        max-height: 55px;
+      }
+    }
+
+    .menu {
+      &__list {
+        gap: 20px;
+      }
+
+      &__link {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    .call {
+      font-size: 18px;
+      line-height: 24px;
+      border-radius: 8px;
+      padding: 10px 26px;
+    }
+  }
+}

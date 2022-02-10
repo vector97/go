@@ -1,0 +1,27 @@
+/* media 1080px */
+
+@include laptop {
+  .benefits {
+    padding-top: 0;
+    padding-bottom: 52px;
+    margin-bottom: 70px;
+
+    &__list {
+      gap: 30px 20px;
+    }
+
+    .card {
+      width: 287px;
+      height: 172px;
+
+      &:nth-child(3n+2) {
+        transform: translateY(53px);
+      }
+
+      &__text {
+        top: 114px;
+        left: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+/* media 320px */
+
+@include mobile {
+  .about {
+    margin-bottom: 30px;
+
+    &__body {
+      grid-template-columns: 280px;
+      grid-template-rows: unset;
+      grid-template-areas:
+      "text"
+      "photo"
+      "blockquote";
+      gap: 15px;
+    }
+
+    &__text {
+      font-size: 12px;
+      line-height: 16px;
+      justify-content: flex-start;
+      gap: 16px;
+    }
+
+    &__blockquote-wrapper {
+      row-gap: 9px;
+    }
+
+    &__blockquote {
+      font-size: 18px;
+      line-height: 26px;
+      margin: 0 0 0 14px;
+
+      &::before {
+        margin-left: -14px;
+      }
+    }
+
+    &__cite {
+      font-size: 12px;
+      line-height: 16px;
+      max-width: 270px;
+      align-self: flex-start;
+      gap: 11px;
+
+      img {
+        width: 56px;
+        height: 56px;
+      }
+    }
+  }
+}

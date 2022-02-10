@@ -1,0 +1,63 @@
+/* media 480px */
+
+@include mobile {
+  .banner {
+    padding-top: 20px;
+    padding-bottom: 46px;
+
+    .container::before {
+      height: 179px;
+      width: 161px;
+      right: 20px;
+    }
+
+    &__title {
+      font-size: 35px;
+      line-height: 35px;
+      letter-spacing: -0.08em;
+      margin-bottom: 6px;
+    }
+
+    &__subtitle {
+      font-size: 10px;
+      line-height: 14px;
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    /* promo */
+
+    .promo {
+
+      &__description {
+        max-width: 139px;
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+
+      &__value {
+        font-size: 26px;
+        line-height: 37px;
+      }
+
+      &__new {
+        font-size: 22px;
+        line-height: 31px;
+      }
+
+      &__name {
+        font-size: 10px;
+        line-height: 11px;
+      }
+
+      &__button {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 8px 13px;
+        border-radius: 4px;
+        margin-bottom: 23px;
+      }
+    }
+    /* /promo */
+  }
+}

@@ -1,0 +1,40 @@
+/* указать шрифт под проект font-family */
+$default-font: 'Arial', sans-serif;
+
+/* указать размер шрифта под проект font-size */
+$default-size: 20px;
+
+/* указать насыщенность шрифта под проект font-weight */
+$default-weight: 400;
+
+/* указать цвет шрифта под проект color */
+$default-color: #ffffff;
+
+/* указать цвет фона под проект background-color */
+$default-background: #1b1a1b;
+
+/* указать ширину контейнера
+Пример контейнера
+Если контейнер 1180px по макету,
+то для max-width прибавляем паддинги 30px*2,
+в итоге 1240px
+Чтобы контент не прижимался к краям экрана */
+$content-width: 1300px;
+
+/* указать брейкпоинты по макету */
+//$breakpoint_xxl: 1200px;
+$breakpoint_xl: 1024px;
+$breakpoint_md: 768px;
+$breakpoint_sm: 320px;
+
+
+:root {
+  --text-white: #ffffff;
+  --text-black: #1c1a1a;
+  --dark-violet: #440f51;
+  --medium-violet: #cd06ff;
+  --light-violet: #6c0287;
+  --button-hover: #840aa3;
+  --button-active: #640aa3;
+  --shadow: #eadeed;
+}

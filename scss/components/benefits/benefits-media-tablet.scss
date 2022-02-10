@@ -1,0 +1,31 @@
+/* media 838px */
+
+@include tablet {
+  .benefits {
+    padding-bottom: 30px;
+
+    &__list {
+      gap: 20px;
+    }
+
+    .card {
+      width: 334px;
+      height: 200px;
+
+      &:nth-child(3n+2) {
+        transform: none;
+      }
+
+      &:hover,
+      &:nth-child(3n+2):hover {
+        transform: none;
+        box-shadow: none;
+      }
+
+      &__text {
+        top: 132px;
+        left: 30px;
+      }
+    }
+  }
+}

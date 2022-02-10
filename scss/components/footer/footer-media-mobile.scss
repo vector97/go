@@ -1,0 +1,33 @@
+/* media 320px */
+
+@include mobile {
+  .footer {
+    padding-bottom: 24px;
+
+
+    .contacts {
+      &__body {
+        margin-bottom: 63px;
+      }
+
+      &__info {
+        gap: 10px;
+      }
+
+      &__item {
+        font-size: 14px;
+        line-height: 18px;
+
+        &::before {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      &__social-item img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

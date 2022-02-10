@@ -1,0 +1,40 @@
+/* media 768px */
+
+@include tablet {
+  .reviews {
+    margin-bottom: 60px;
+
+    &__body {
+      column-gap: 12px;
+    }
+
+    &__item {
+      column-gap: 15px;
+    }
+
+    &__text {
+      font-size: 16px;
+      line-height: 22px;
+      padding-top: 30px;
+    }
+
+    /* user */
+
+    &__user::after {
+      bottom: 35px;
+    }
+
+    .user {
+      flex-basis: 153px;
+      row-gap: 15px;
+
+      &__name {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+
+    /* /user */
+
+  }
+}

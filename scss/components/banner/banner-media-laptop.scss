@@ -1,0 +1,72 @@
+/* media 1080px */
+
+@include laptop {
+  .banner {
+    padding-top: 30px;
+    padding-bottom: 83px;
+
+    .container::before {
+      height: 520px;
+      width: 453px;
+    }
+
+    &__title {
+      font-size: 120px;
+      line-height: 120px;
+      margin-bottom: 20px;
+    }
+
+    &__subtitle {
+      font-size: 22px;
+      line-height: 30px;
+    }
+
+    /* promo */
+
+    .promo {
+      &__description {
+        max-width: 348px;
+        margin-bottom: 80px;
+      }
+
+      &__value {
+        font-size: 80px;
+        line-height: 113px;
+      }
+
+      &__new {
+        font-size: 60px;
+        line-height: 85px;
+      }
+
+      &__name {
+        font-size: 25px;
+        line-height: 30px;
+      }
+
+      &__button {
+        font-size: 22px;
+        padding: 17px 48px;
+        margin-bottom: 66px;
+      }
+    }
+
+    /* /promo */
+
+    &__arrow {
+      bottom: 46px;
+
+      &:hover {
+        background-color: var(--light-violet);
+      }
+
+      &:active {
+        background-color: var(--medium-violet);
+      }
+
+      &:focus {
+        outline: 1px solid var(--medium-violet);
+      }
+    }
+  }
+}

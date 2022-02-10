@@ -1,0 +1,143 @@
+/* banner */
+
+.banner {
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+  .container {
+    position: relative;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      height: 762px;
+      width: 675px;
+      background: url("../../../img/page/banner/main-bg.png") no-repeat right bottom / cover;
+      position: absolute;
+      right: 60px;
+      bottom: 0;
+    }
+  }
+
+  &__title {
+    font-size: 150px;
+    line-height: 150px;
+    font-weight: 900;
+    letter-spacing: -0.1em;
+  }
+
+  &__subtitle {
+    font-size: 28px;
+    line-height: 50px;
+    margin: 0 0 30px 0;
+    padding-left: 100px;
+  }
+
+  /* promo */
+
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__description {
+      display: flex;
+      align-items: flex-end;
+      gap: 40px;
+      max-width: 400px;
+      margin-bottom: 150px;
+    }
+
+    &__card {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__value {
+      font-size: 100px;
+      line-height: 141px;
+      font-weight: 900;
+      color: var(--medium-violet);
+    }
+
+    &__new {
+      font-size: 75px;
+      line-height: 106px;
+      font-weight: 900;
+      font-variant: small-caps;
+      color: var(--medium-violet);
+    }
+
+    &__name {
+      font-size: 30px;
+      line-height: 34px;
+      text-align: center;
+    }
+
+    &__button {
+      font-size: 26px;
+      line-height: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 25px 69px;
+      background-color: var(--light-violet);
+      border-radius: 10px;
+      z-index: 1;
+      transition: all 0.2s ease-in;
+      box-shadow: 0 0 10px var(--light-violet);
+      margin-bottom: 154px;
+
+      &:hover,
+      &:focus {
+        background-color: var(--button-hover);
+      }
+
+      &:active {
+        background-color: var(--button-active);
+      }
+    }
+  }
+
+  /* /promo */
+
+  &__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height: 97px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 90px;
+    z-index: 1;
+    transition: all 0.2s ease-in;
+    outline: none;
+
+    &:active {
+      outline: none;
+    }
+
+    &:focus {
+      outline: 1px solid var(--medium-violet);
+    }
+
+    img {
+      border: 1px solid var(--text-white);
+      border-radius: 50%;
+      padding: 30px;
+    }
+
+    &:hover img {
+      background-color: var(--light-violet);
+    }
+
+    &:active img {
+      background-color: var(--medium-violet);
+    }
+  }
+}
+
+/* /banner */

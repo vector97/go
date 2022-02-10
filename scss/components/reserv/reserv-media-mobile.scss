@@ -1,0 +1,92 @@
+/* media 320px */
+
+@include mobile {
+  .reserv {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+    &__hall {
+      margin-bottom: 30px;
+    }
+
+    &__heading {
+      line-height: 20px;
+      margin-bottom: 13px;
+    }
+
+    .fieldset-title {
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 15px;
+    }
+
+    .hall {
+      gap: 14px 20px;
+      flex-wrap: wrap;
+
+      &__label {
+        font-size: 13px;
+        line-height: 18px;
+        flex-basis: 130px;
+        padding: 6px 20px;
+        border-radius: 4px;
+      }
+    }
+
+    &__set {
+      justify-content: flex-start;
+      row-gap: 25px;
+    }
+
+    .set {
+      margin-bottom: 30px;
+
+      &__legend {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+      }
+
+      &__item {
+        flex-basis: 100%;
+      }
+
+      &__radio,
+      &__check {
+        width: 30px;
+        height: 30px;
+      }
+
+      &__label {
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+
+    .info {
+      row-gap: 35px;
+
+      &__block_time {
+        flex-direction: column;
+        column-gap: 15px;
+
+        .info__time,
+        .info__select {
+          flex-basis: auto;
+        }
+      }
+
+      &__button {
+        margin-top: 35px;
+      }
+    }
+
+    &__button {
+      font-size: 18px;
+      line-height: 26px;
+      flex-basis: 100%;
+      padding: 17px 59px;
+    }
+  }
+}

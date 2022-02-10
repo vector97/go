@@ -1,0 +1,37 @@
+/* media 320px */
+
+@include mobile {
+  .reviews {
+    margin-bottom: 30px;
+
+    &__body {
+      column-gap: 12px;
+    }
+
+    &__item {
+      flex-direction: column;
+      row-gap: 16px;
+    }
+
+    &__text {
+      font-size: 12px;
+      line-height: 16px;
+      padding-top: 0;
+    }
+
+    /* user */
+
+    &__user::after {
+      bottom: 29px;
+    }
+
+    .user {
+      flex-basis: 86px;
+      flex-grow: 0;
+      row-gap: 9px;
+    }
+
+    /* /user */
+
+  }
+}

@@ -1,0 +1,18 @@
+/* media 320px */
+
+@include mobile {
+  .halls {
+    padding-bottom: 30px;
+
+    &__list {
+      gap: 10px;
+    }
+
+    &__item {
+      font-size: 26px;
+      line-height: 34px;
+      width: 280px;
+      height: 168px;
+    }
+  }
+}

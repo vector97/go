@@ -1,0 +1,82 @@
+/* media 838px */
+
+@include tablet {
+  .reserv {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__hall {
+      margin-bottom: 50px;
+    }
+
+    &__heading {
+      margin-bottom: 40px;
+    }
+
+    .fieldset-title {
+      margin-bottom: 30px;
+    }
+
+    .hall {
+      gap: 29px;
+
+      &__label {
+        font-size: 16px;
+        line-height: 20px;
+        flex-basis: 150px;
+        padding: 9px 20px;
+      }
+    }
+
+    &__set {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      row-gap: 32px;
+    }
+
+    .set {
+      margin-bottom: 50px;
+
+      &__item {
+        flex-basis: 50%;
+      }
+
+      &__radio,
+      &__check {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+      }
+    }
+
+    .info {
+      flex-wrap: wrap;
+      row-gap: 42px;
+
+      &__block_time {
+        flex: 1 1 100%;
+        justify-content: space-between;
+        flex-direction: row;
+
+        .info__time,
+        .info__select {
+          flex-basis: 300px;
+        }
+      }
+
+      &__label {
+      }
+
+      &__button {
+        margin-top: 48px;
+      }
+    }
+
+    &__button {
+      font-size: 22px;
+      line-height: 28px;
+      flex-basis: 300px;
+      padding: 16px 50px;
+    }
+  }
+}

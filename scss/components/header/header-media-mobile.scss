@@ -1,0 +1,58 @@
+/* media 480px */
+
+@include mobile {
+  .header {
+    &__body {
+      padding-top: 20px;
+    }
+
+    .logo {
+      &__img {
+        max-width: 66px;
+        height: 42px;
+      }
+    }
+
+    .menu {
+      &__icon {
+        width: 43px;
+        height: 40px;
+      }
+
+      &__icon::before,
+      &__icon span {
+        width: 39px;
+      }
+
+      &__icon::before {
+        top: 12px;
+      }
+
+      &__icon::after {
+        bottom: 12px;
+      }
+
+      &__icon::before,
+      &__icon span,
+      &__icon::after {
+        height: 3.45px;
+      }
+
+      &__icon_active {
+        &::before {
+          top: 48%;
+        }
+
+        &::after {
+          width: 39px;
+          bottom: 50%;
+          transform: rotate(45deg) translate(0px, 50%);
+        }
+      }
+    }
+
+    &__button {
+      display: none;
+    }
+  }
+}

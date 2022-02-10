@@ -1,0 +1,17 @@
+/* media 1024px */
+
+@include laptop {
+  .faq {
+    margin-bottom: 70px;
+
+    &__list {
+      row-gap: 16px;
+    }
+
+    &__item {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 12px 20px;
+    }
+  }
+}

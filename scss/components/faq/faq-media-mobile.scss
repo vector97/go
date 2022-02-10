@@ -1,0 +1,22 @@
+/* media 320px */
+
+@include mobile {
+  .faq {
+    margin-bottom: 30px;
+
+    &__list {
+      row-gap: 10px;
+    }
+
+    &__item {
+      font-size: 12px;
+      line-height: 16px;
+      padding: 8px 10px;
+
+      &::after {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

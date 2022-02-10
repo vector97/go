@@ -1,0 +1,70 @@
+/* about */
+
+.about {
+  margin-bottom: 100px;
+
+  &__body {
+    display: grid;
+    grid-template-columns: minmax(420px, 600px) minmax(444px, 500px);
+    grid-template-rows: minmax(195px, 222px) minmax(217px, 325px);
+    grid-template-areas:
+      "photo text"
+      "photo blockquote";
+    gap: 48px 80px;
+  }
+
+  &__photos {
+    grid-area: photo;
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__blockquote-wrapper {
+    grid-area: blockquote;
+    display: flex;
+    flex-direction: column;
+    row-gap: 39px;
+  }
+
+  &__blockquote {
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 0 0 0 35px;
+
+    &::before {
+      content: '\201C';
+      font-weight: 900;
+      color: var(--light-violet);
+      margin-left: -35px;
+    }
+
+    &::after {
+      content: '\201D';
+      font-weight: 900;
+      color: var(--light-violet);
+    }
+  }
+
+  &__cite {
+    max-width: 390px;
+    align-self: flex-end;
+    font-style: normal;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  &__author {
+    border-radius: 50%;
+  }
+}
+
+/* /about */

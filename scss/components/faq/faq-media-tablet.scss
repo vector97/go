@@ -1,0 +1,16 @@
+/* media 768px */
+
+@include tablet {
+  .faq {
+    margin-bottom: 60px;
+
+    &__item {
+      font-size: 18px;
+      padding: 12px 65px;
+
+      &::after {
+        border-width: 1px;
+      }
+    }
+  }
+}

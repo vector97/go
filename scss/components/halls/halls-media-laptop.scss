@@ -1,0 +1,14 @@
+/* media 1080px */
+
+@include laptop {
+  .halls {
+    padding-bottom: 70px;
+
+    &__item {
+      font-size: 50px;
+      line-height: 60px;
+      width: 442px;
+      height: 267px;
+    }
+  }
+}

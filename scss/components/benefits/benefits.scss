@@ -1,0 +1,70 @@
+/* benefits */
+
+.benefits {
+  padding-bottom: 69px;
+  margin-bottom: 100px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+  }
+
+  /* card */
+
+  .card {
+    width: 380px;
+    height: 228px;
+    position: relative;
+    transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &:nth-child(3n+2) {
+      transform: translateY(70px);
+    }
+
+    &:hover,
+    &:nth-child(3n+2):hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 4px var(--shadow);
+    }
+
+    &_vr {
+      background-image: url('../../../img/page/benefits/vr.jpg');
+    }
+
+    &_audio {
+      background-image: url('../../../img/page/benefits/audio.jpg');
+    }
+
+    &_micro {
+      background-image: url('../../../img/page/benefits/micro.jpg');
+    }
+
+    &_game {
+      background-image: url('../../../img/page/benefits/game.jpg');
+    }
+
+    &_netflix {
+      background-image: url('../../../img/page/benefits/netflix.jpg');
+    }
+
+    &_sony {
+      background-image: url('../../../img/page/benefits/sony.jpg');
+    }
+
+    &__text {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 700;
+      position: absolute;
+      top: 166px;
+      left: 40px;
+    }
+  }
+  /* /card */
+}
+
+/* /benefits */

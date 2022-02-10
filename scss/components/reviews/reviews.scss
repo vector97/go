@@ -1,0 +1,88 @@
+/* reviews */
+
+.reviews {
+  margin-bottom: 100px;
+
+  &__body {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+  }
+
+  &__item {
+    display: none;
+    column-gap: 20px;
+
+    &_active {
+      display: flex;
+    }
+  }
+
+  &__text {
+    padding-top: 50px;
+  }
+
+  /* user */
+
+  &__user {
+    position: relative;
+  }
+
+  &__user::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 39px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%) center;
+    border-radius: 50%;
+  }
+
+  .user {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 280px;
+    flex-shrink: 0;
+    row-gap: 11px;
+
+    &__avatar {
+      display: block;
+    }
+
+    &__name {
+      text-align: center;
+    }
+  }
+
+  /* /user */
+
+  /* slider */
+
+  .slider {
+    &__arrow {
+      width: 46px;
+      height: 46px;
+      border-top: 2px solid var(--light-violet);
+      border-left: 2px solid var(--light-violet);
+      flex-shrink: 0;
+      cursor: pointer;
+
+      &:hover {
+        border-color: var(--text-white)
+      }
+
+      &_prev {
+        transform: rotate(-45deg);
+      }
+
+      &_next {
+        transform: rotate(135deg);
+      }
+    }
+  }
+
+  /* /slider */
+}
+
+/* /reviews */

@@ -1,0 +1,67 @@
+/* faq */
+
+.faq {
+  margin-bottom: 100px;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  &__item {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--text-black);
+    padding: 20px 70px;
+    background-color: var(--text-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+    &::after {
+      content: "+";
+      width: 46px;
+      height: 46px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;
+      color: var(--dark-violet);
+      border: 2px solid var(--dark-violet);
+      border-radius: 50%;
+      padding: 13px;
+      flex-shrink: 0;
+    }
+
+    &:hover::after {
+      color: var(--text-white);
+      background-color: var(--dark-violet);
+    }
+
+    &:nth-child(2n) {
+      color: var(--text-white);
+      background-color: var(--dark-violet);
+    }
+
+    &:nth-child(2n)::after {
+      color: var(--text-white);
+      border-color: var(--text-white);
+    }
+
+    &:nth-child(2n):hover::after {
+      color: var(--dark-violet);
+      background-color: var(--text-white);
+    }
+
+    &_active::after {
+      content: '-';
+    }
+  }
+}
+
+/* /faq */

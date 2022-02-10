@@ -1,0 +1,50 @@
+/* media 1024px */
+
+@include laptop {
+  .reviews {
+    margin-bottom: 70px;
+
+    &__body {
+      column-gap: 25px;
+    }
+
+    &__item {
+      column-gap: 38px;
+    }
+
+    &__text {
+      font-size: 18px;
+      line-height: 26px;
+      padding-top: 33px;
+    }
+
+    /* user */
+
+    &__user::after {
+      bottom: 47px;
+    }
+
+    .user {
+      flex-basis: 172px;
+      row-gap: 21px;
+
+      &__name {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+
+    /* /user */
+
+    /* slider */
+
+    .slider {
+      &__arrow {
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    /* /slider */
+  }
+}
