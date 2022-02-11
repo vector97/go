@@ -5,8 +5,8 @@
     margin-bottom: 60px;
 
     &__body {
-      grid-template-columns: 382px 278px;
-      grid-template-rows: 380px 184px;
+      grid-template-columns: unset;
+      grid-template-rows: unset;
       grid-template-areas:
       "photo text"
       "blockquote blockquote";

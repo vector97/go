@@ -82,7 +82,7 @@ fieldset {
 
 /* media 1080px */
 
-@media (max-width: 1080px) {
+@media (max-width: 1024px) {
   .heading {
     font-size: 30px;
     line-height: 40px;
@@ -92,7 +92,7 @@ fieldset {
 
 /* media 838px */
 
-@media (max-width: 838px) {
+@media (max-width: 767px) {
   .container {
     padding: 0 40px;
   }
@@ -106,7 +106,7 @@ fieldset {
 
 /* media 480px */
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .container {
     padding: 0 20px;
   }

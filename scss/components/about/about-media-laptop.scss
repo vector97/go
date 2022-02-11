@@ -5,8 +5,8 @@
     margin-bottom: 70px;
 
     &__body {
-      grid-template-columns: 420px 444px;
-      grid-template-rows: 195px 217px;
+      grid-template-columns: unset;
+      grid-template-rows: unset;
       gap: 26px 40px;
     }
 
